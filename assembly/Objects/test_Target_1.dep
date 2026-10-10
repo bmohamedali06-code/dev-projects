@@ -1,3 +1,0 @@
-Dependencies for Project 'test', Target 'Target_1': (DO NOT MODIFY !)
-CompilerVersion: 6240000::V6.24::ARMCLANG
-F (.\test1.s)(0x6AC922F1)(--cpu Cortex-M3 --li --pd "__EVAL SETA 1" -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.2.0\Device\ARMCM3\Include--pd "__UVISION_VERSION SETA 543"--pd "ARMCM3 SETA 1"--list .\listings\test1.lst--xref -o .\objects\test1.o--depend .\objects\test1.d)
