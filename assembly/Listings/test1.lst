@@ -1,0 +1,95 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET, DATA, READONLY
+    2 00000000                 EXPORT           __Vectors
+    3 00000000                 EXPORT           __main
+    4 00000000         
+    5 00000000         __Vectors
+    6 00000000 20001000        DCD              0x20001000  ; Initial Stack Poi
+                                                            nter
+    7 00000004 00000000        DCD              __main      ; Reset Handler
+    8 00000008         
+    9 00000008                 AREA             |.text|, CODE, READONLY
+   10 00000000                 ENTRY
+   11 00000000         
+   12 00000000         __main
+   13 00000000 F04F 0015       MOV              R0,#0x15
+   14 00000004 F04F 0103       MOV              R1,#0x3
+   15 00000008 FB01 F200       MUL              R2,R1,R0
+   16 0000000C         stop
+   17 0000000C E7FE            B                stop
+   18 0000000E         END
+                       
+Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M3 --depe
+nd=.\objects\test1.d -o.\objects\test1.o -IC:\Users\USER\AppData\Local\Arm\Pack
+s\ARM\Cortex_DFP\1.2.0\Device\ARMCM3\Include --predefine="__EVAL SETA 1" --pred
+efine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 543" --predefine=
+"ARMCM3 SETA 1" --list=.\listings\test1.lst test1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file test1.s
+   Uses
+      None
+Comment: RESET unused
+__Vectors 00000000
+
+Symbol: __Vectors
+   Definitions
+      At line 5 in file test1.s
+   Uses
+      At line 2 in file test1.s
+Comment: __Vectors used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 9 in file test1.s
+   Uses
+      None
+Comment: .text unused
+END 0000000E
+
+Symbol: END
+   Definitions
+      At line 18 in file test1.s
+   Uses
+      None
+Comment: END unused
+__main 00000000
+
+Symbol: __main
+   Definitions
+      At line 12 in file test1.s
+   Uses
+      At line 3 in file test1.s
+      At line 7 in file test1.s
+
+stop 0000000C
+
+Symbol: stop
+   Definitions
+      At line 16 in file test1.s
+   Uses
+      At line 17 in file test1.s
+Comment: stop used once
+4 symbols
+340 symbols in table
