@@ -4,9 +4,9 @@ A clean, responsive, single-page CV built using semantic HTML5 and inline CSS. D
 
 ---
 
-### 🔗 Project Links
+### 🔗 Projects Links
 
-* **Live Demo:** [View Live Resume](https://roadmap.sh/projects/single-page-cv)
+* **Live Demo:** [View Live Resume](https://roadmap.sh/projects/single-page-cv)(https://roadmap.sh/projects/basic-html-website)
 * **GitHub Repository:** [View Code](https://github.com/bmohamedali06-code/dev-projects)
 
 ---
