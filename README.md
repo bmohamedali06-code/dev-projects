@@ -22,6 +22,17 @@ A developer portfolio built using HTML tables, inline styles, and semantic struc
 
 ---
 
+### 3. Contact Us Form Page
+A fully structured, accessible HTML contact form page designed without external CSS frameworks, emphasizing semantic layout alignment, browser form controls, and validation attributes.
+
+* **Live Specs & Requirements:** [roadmap.sh - Contact Form](https://roadmap.sh/projects/contact-form))
+* **GitHub Repository:** [View Code](https://github.com/bmohamedali06-code/dev-projects)
+
+#### Key Highlights & Features:
+- **Semantic Form Components:** Structured using native `<form>`, `<label>`, `<fieldset>`, `<legend>`, `<select>`, and `<textarea>` elements.
+- **Native Browser Validation:** Configured client-side form rules using `required`, `type="email"`, and `minlength` attributes without relying on JavaScript.
+- **HTML Table Alignment:** Form controls, dropdowns, and textareas are aligned precisely across columns using standard table layout geometry (`width="400"`, `cellpadding="8"`, and `box-sizing: border-box`).
+- **Accessible Design:** Paired all controls using `for` and `id` attributes to ensure keyboard and screen-reader usability.
 ## 🛠️ Built With
 
 - **HTML5:** Semantic document tags, tables, and SEO metadata
