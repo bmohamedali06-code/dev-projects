@@ -1,31 +1,38 @@
-# Single-Page HTML Resume
+# Dev Projects
 
-A clean, responsive, single-page CV built using semantic HTML5 and inline CSS. Designed to serve as a compact, centered digital resume layout.
+A collection of frontend web development projects focused on core HTML and web development fundamentals.
 
 ---
 
-### 🔗 Project Links
+## 🚀 Projects
 
-* **Live Demo:** [View Live Resume](https://roadmap.sh/projects/single-page-cv)
+### 1. Single-Page CV
+A clean, responsive, single-page digital resume built using semantic HTML5 and inline CSS.
+
+* **Live Specs & Requirements:** [roadmap.sh - Single Page CV](https://roadmap.sh/projects/single-page-cv)
 * **GitHub Repository:** [View Code](https://github.com/bmohamedali06-code/dev-projects)
 
 ---
 
-## 🚀 Features
+### 2. HTML-Only Portfolio
+A developer portfolio built using HTML tables, inline styles, and semantic structural tags to construct a multi-column wireframe layout.
 
-- **Centered Box Layout**: Styled with a max-width container and clean borders for a structured document frame.
-- **Pure HTML/CSS**: Built using core web fundamentals without external CSS frameworks or heavy dependencies.
-- **Semantic Structure**: Organized with appropriate headings (`<h1>`, `<h4>`), lists (`<ul>`), and sections for easy readability.
-- **Lightweight**: Fast loading and adapts cleanly across different browser screen sizes.
+* **Live Specs & Requirements:** [roadmap.sh - Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+* **GitHub Repository:** [View Code](https://github.com/bmohamedali06-code/dev-projects)
+
+---
 
 ## 🛠️ Built With
 
-* **HTML5**: Document structure and semantic tags
-* **CSS3**: Inline container styling, spacing, and typography
+- **HTML5:** Semantic document tags, tables, and SEO metadata
+- **CSS3:** Core inline styles for layout boundaries and basic formatting
+
+---
 
 ## 📂 Project Structure
 
 ```text
 dev-projects/
-└── single-page CV project/
-    └── CV.html       # Main HTML resume file
+└── projects/
+    ├── single-page-cv/
+    └── html-portfolio/
